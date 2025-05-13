@@ -22,9 +22,86 @@ h2 {
 }
 
 section {
-    border: 0.5rem solid gray;
+    border: 0.25rem solid black;
     padding: 1rem;
     width: 75%;
+    margin: 1rem 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
 }
 
 /*Section - Colors*/
+.color {
+    width: 15rem;
+    height: 5rem;
+    margin: 1rem;
+    border: 0.10rem solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.color-text p {
+    padding: 5px;
+}
+
+.light-green {
+    background-color: #ACF39D;
+}
+
+.indian-red {
+    background-color: #E85F5C;
+}
+
+.ice-blue {
+    background-color: #9CFFFA;
+}
+
+.pale-dogwood {
+    background-color: #E3B5A4;
+}
+
+/*Section - fonts*/
+.font {
+    margin: 2rem 0.75rem;
+}
+
+.font h3, .font p {
+    padding: 0.75rem 0;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.nunito-sans {
+    font-family: "Nunito Sans", sans-serif;
+}
