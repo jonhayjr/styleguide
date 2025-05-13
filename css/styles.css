@@ -87,7 +87,7 @@ section {
 
 /*Section - fonts*/
 .font {
-    margin: 2rem 0.75rem;
+    margin: 1rem;
 }
 
 .font h3, .font p {
@@ -104,4 +104,33 @@ section {
 
 .nunito-sans {
     font-family: "Nunito Sans", sans-serif;
+}
+
+/*Section - Text Styles*/
+.text-style {
+    padding: 1rem;
+    justify-content: center;
+}
+
+.h1-styling {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.h2-styling {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.p-styling {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+.text-style p {
+    font-size: 1.5rem;
+}
+
+.text-style h3, .text-style p {
+    padding: 0.75rem 0;
 }
